@@ -60,18 +60,18 @@ gdzie
 [2] to wartość zmiennej przechowującej nazwę stanowiska dla przedziału kwot wynagrodzeń.
 W rozwiązaniu wykorzystaj instrukcję warunkową if.
 11. Przeanalizuj poniższy ciąg wartości i znajdź zależności:
-5.
-4.
-4.1.
-4.3.
-4.4.
-3.
-3.1.
-3.3.
-2.
-2.1.
-1.
-1.1.
+/5.
+/4.
+/4.1.
+/4.3.
+/4.4.
+/3.
+/3.1.
+/3.3.
+/2.
+/2.1.
+/1.
+/1.1.
 Napisz blok anonimowy, który wyświetla powyższe wartości. W rozwiązaniu wykorzystaj pętlę loop oraz funkcje exit i continue.
 12. Stwórz blok anonimowy i zadeklaruj w nim odpowiednie zmienne. Wyświetl nazwy kolejnych departamentów zaczynając od departamentu z ID równym 10 i kończąc na departamencie z ID równym 100. Załóż, że w bazie danych nie brakuje żadnych wartości ID departamentów w powyższym przedziale, gdzie krok wynosi 10. W rozwiązaniu wykorzystaj pętlę while.
 13. Stwórz blok anonimowy i zadeklaruj w nim odpowiednie zmienne. Wyświetl imię i nazwisko kolejnych pracowników zaczynając od pracownika z ID równym 150 i kończąc na pracowniku z ID równym 160. Załóż, że w bazie danych nie brakuje żadnych wartości ID pracowników w powyższym przedziale. Dla każdego pracownika wyświetl dodatkowo tyle znaków gwiazdki (*), ile pełnych lat pracuje on już w firmie na aktualnym stanowisku. W rozwiązaniu wykorzystaj pętlę while. 
