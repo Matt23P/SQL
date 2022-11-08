@@ -1,0 +1,17 @@
+# Zadanie 4 - kursory i wyjątki
+
+1. Stwórz blok anonimowy i zadeklaruj w nim odpowiednie zmienne. Wyświetl imię i nazwisko pracownika, który zarabia określoną kwotę wynagrodzenia. Złap wyjątki systemowe za pomocą ich nazw w przypadkach, gdy taki pracownik nie istnieje lub istnieje więcej niż 1 taki pracownik - wyświetl adekwatną informację. W przypadku wywołania innych wyjątków, także wyświetl odpowiednią wiadomość. Wypróbuj swoje rozwiązanie dla wartości wynagrodzeń 250, 7800 i 2500.
+2. Stwórz blok anonimowy. Zadeklaruj w nim nowy wyjątek i przypisz do niego Constraint Violation używając jego kodu. Złap ten wyjątek systemowy za pomocą jego nowej nazwy i wyświetl adekwatną informację. Usuń departament, którego ID wynosi 100.
+3. Stwórz blok anonimowy i zadeklaruj w nim odpowiednie zmienne. Wyświetl informację o adresie e-mail, który posiada określony pracownik. Jeżeli długość tego adresu e-mail jest krótsza niż 5 znaków, wywołaj tylko wyjątek i wyświetl adekwatną informację. Wypróbuj swoje rozwiązanie dla pracowników Pat Fay i William Gietz.
+4. Stwórz blok anonimowy i zadeklaruj w nim odpowiednie zmienne. Wyświetl informację o sumie wynagrodzeń wszystkich pracowników. Jeżeli liczba ta jest większa od określonej kwoty, wywołaj tylko wyjątek i wyświetl adekwatną informację. W rozwiązaniu wykorzystaj raise_application_error oraz własny kod wyjątku. Wypróbuj swoje rozwiązanie dla granicznych kwot 500 000 i 700 000.
+5. Stwórz blok anonimowy i zadeklaruj w nim odpowiednie zmienne oraz kursor. Wyświetl nazwę kolejnych departamentów uwzględniając wszystkie z bazy danych. Dla każdego departamentu wyświetl dodatkowo liczbę ich pracowników. 
+6. Stwórz blok anonimowy i zadeklaruj w nim odpowiednie zmienne oraz kursor z parametrem odnoszącym się do nazwy stanowiska. Wyświetl numer ID oraz imię i nazwisko pracowników na stanowisku Sales Representative, którego nazwa jest przesyłana do kursora.
+W którym momencie dane są pobierane do kursora - podczas deklaracji, otwarcia kursora czy pobierania kolejnych wartości z kursora? Możesz to sprawdzić, np. poprzez zmianę imienia pracownika o numerze ID równym 150 w różnych fragmentach kodu.
+7. Stwórz blok anonimowy i zadeklaruj w nim odpowiednie zmienne oraz kursor. Usuń wszystkie lokalizacje, w których nie ma żadnego departamentu. W rozwiązaniu wykorzystaj klauzulę where current of w odniesieniu do kursora.
+8. Stwórz blok anonimowy i zadeklaruj w nim odpowiednie zmienne oraz kursor. Wyświetl nazwę wszystkich stanowisk w firmie. Jeżeli dwukrotność minimalnego wynagrodzenia jest mniejsza niż maksymalne wynagrodzenie danego stanowiska, dodatkowo wyświetl wiadomość:
+" - zbyt duza roznica pomiędzy minimalnym i maksymalnym wynagrodzeniem".
+Wywołaj wyjątki z odpowiednią informacją w przypadku gdy:
+– dane minimalne wynagrodzenie stanowiska jest mniejsze od 0,
+– dane maksymalne wynagrodzenie stanowiska jest mniejsze niż wynagrodzenie pracownika na tym stanowisku.
+W rozwiązaniu wykorzystaj kursor z for loop.
+9. Stwórz blok anonimowy i zadeklaruj w nim odpowiednie zmienne oraz dwa kursory. Wyświetl dla każdego departamentu jego nazwę, a następnie listę imion i nazwisk pracowników, którzy pracują w nim. W przypadku, kiedy w danym departamencie nikt nie pracuje, wyświetl wiadomość: "Brak pracownikow".
