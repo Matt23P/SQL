@@ -268,18 +268,18 @@ END;
 
 --11
 BEGIN
-    FOR major IN REVERSE 1 .. 5 
+    FOR ma IN REVERSE 1 .. 5 
     LOOP
-        dbms_output.put_line(major || '.');
-        IF major = 5 THEN
+        dbms_output.put_line(ma || '.');
+        IF ma = 5 THEN
             CONTINUE;
         END IF;
-        FOR minor IN 1 .. major
+        FOR mi IN 1 .. ma
         LOOP
-            IF minor = 2 THEN
+            IF mi = 2 THEN
                 CONTINUE;
             END IF;
-            dbms_output.put_line(major || '.' || minor);
+            dbms_output.put_line(ma || '.' || mi);
         END LOOP;
     END LOOP;
 END;
